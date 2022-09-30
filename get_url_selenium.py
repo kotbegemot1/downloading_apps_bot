@@ -34,6 +34,7 @@ def get_url_by_selenium(url):
         driver.quit()
 
 def main():
+    """Для теста"""
     # pass
     print(get_url_by_selenium("https://apkcombo.com/ru/marketplace/com.marketplace.marketplace/download/apk"))
 
